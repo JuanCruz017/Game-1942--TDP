@@ -32,10 +32,10 @@ public abstract class Enemigo extends Entidad {
 		velocidad = 1;
 		movimiento = null;		// en principio no se moveran hasta que se indique que aparezca por pantalla
 		random = new Random();
-		suelta_premio = random.nextInt(5) == 1;
+		suelta_premio = random.nextInt(10) == 1;
 		vida = 5;
 		damage = 1;
-		muerto = false;
+  		muerto = false;
 		quieto = false;
 		puntos = 100;
 

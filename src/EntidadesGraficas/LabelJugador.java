@@ -24,7 +24,7 @@ public class LabelJugador extends EntidadGrafica {
 	
 	public void setDiveo(boolean diveo) {
 		if(diveo == true) {
-			super.reDimensionar(this, new ImageIcon(LabelJugador.class.getResource(rutasImagen[2])));
+			super.reDimensionar(this, new ImageIcon(LabelJugador.class.getResource(rutasImagen[1])));
 		}else super.reDimensionar(this, new ImageIcon(LabelJugador.class.getResource(rutasImagen[0])));
 	}
 	

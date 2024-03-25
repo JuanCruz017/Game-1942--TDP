@@ -1,5 +1,5 @@
+jc - 14900
+jc - 13200
 jc - 10400
 Player4 - 400
 Player3 - 300
-Player2 - 200
-Player1 - 100
