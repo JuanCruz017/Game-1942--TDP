@@ -4,7 +4,7 @@ import javax.swing.ImageIcon;
 
 public class LabelAvionLateral extends EntidadGrafica {
 	
-	private String ruta = "/RecursosGraficos_Jugador/avionLateral.png";
+	private String ruta = "/RecursosGraficos_Jugador/AvionLateral.png";
 
 	public LabelAvionLateral() {
 		super();

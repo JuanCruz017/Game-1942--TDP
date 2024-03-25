@@ -10,7 +10,6 @@ import Entidades.Entidad;
 import Entidades.Jugador;
 
 import EntidadesGraficas.EntidadGrafica;
-import EntidadesGraficas.LabelJugador;
 import GUI.GUI;
 
 /**
@@ -188,7 +187,7 @@ public class Juego implements Runnable {
 	private void actualizarDatosJuego() {	
 		gui.actualizarPuntos(jugador.getPuntos());
 		gui.actualizarVida(jugador.getVidas());
-		LabelJugador labelJugador=(LabelJugador)jugador.getGrafico();
+		jugador.getGrafico();
 	}
 
 	private void detectarColisiones() {
@@ -283,7 +282,7 @@ public class Juego implements Runnable {
 	
 	public void perdio() {
 		int puntaje = jugador.getPuntos();
-		this.juego = null;
+		Juego.juego = null;
 		jugando = false;
 		gui.perdio(puntaje);
 	}

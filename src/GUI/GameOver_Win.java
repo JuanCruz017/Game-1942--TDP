@@ -84,7 +84,7 @@ public class GameOver_Win extends JFrame implements Disposable{
 		contentPane.add(botonRanking);
 		
 		JLabel gameOverL = new JLabel("");
-		gameOverL.setIcon(new ImageIcon(GameOver_Win.class.getResource("/RecursosGraficos_Extras/gameOver"+p+".png ")));
+		gameOverL.setIcon(new ImageIcon(GameOver_Win.class.getResource("/RecursosGraficos_Extras/gameOver"+p+".png")));
 		gameOverL.setBounds(213, 77, 499, 70);
 		gameOverL.setEnabled(true);
 		contentPane.add(gameOverL);

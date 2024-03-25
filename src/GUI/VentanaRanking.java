@@ -41,7 +41,7 @@ public class VentanaRanking extends JFrame{
 		contentPane.add(panelJuego);
 
 		fondoJuego = new JLabel("New label");
-		fondoJuego.setIcon(new ImageIcon(GUI.class.getResource("/RecursosGraficos_Extras/fondo2.png")));
+		fondoJuego.setIcon(new ImageIcon(GUI.class.getResource("/RecursosGraficos_Extras/Fondo2.png")));
 		fondoJuego.setBounds(1, 0, 933,601);
 		reDimensionar(fondoJuego, (ImageIcon) fondoJuego.getIcon());
 		panelJuego.add(fondoJuego);
